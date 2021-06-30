@@ -56,34 +56,6 @@ bot.on('message', async (msg) => {
                                     default: false,
                                     description: "get the emoji commands",
                                     emoji: { id: "821670793368043540"}
-                                },
-                                {
-                                    label: "fun",
-                                    value: "fun",
-                                    default: false,
-                                    description: "all the fun related commands like games etc",
-                                    emoji: { id: "847172125815341066"}
-                                },
-                                {
-                                    label: "img",
-                                    value: "img",
-                                    default: false,
-                                    description: "i forgot what this does xD",
-                                    emoji: { id: "816698525416030279"}
-                                },
-                                {
-                                    label: "slash",
-                                    value: "slash",
-                                    default: false,
-                                    description: "all the slash commands",
-                                    emoji: { id: "846414368124305468" }                                    
-                                },
-                                {
-                                    label: "util",
-                                    value: "util",
-                                    default: false,
-                                    description: "utilities commands, stuff man... idk",
-                                    emoji: { id: "847172537833750558" }
                                 }
                             ],
                             placeholder: "HELP!", //placeholder will be the default display if you have default turned off for all the values
